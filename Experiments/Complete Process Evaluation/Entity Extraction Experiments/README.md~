@@ -1,0 +1,12 @@
+This folder contains the outputs of the entity extraction experiments on Ritter et al. test dataset.
+
+Every line in the output files contains a test tweet and the extracted mentions. Tweet and mentions are separated by tabs. 
+In a mention list, mentions are separated by '||'. In our approach there is also a third tab displaying the disambiguations of the mentions.
+
+Example output (Other Approaches)
+------------------------------------
+Headed to Davidson vs Blount with Bennett- love spending time with my son! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Davidson||Blount||Bennett
+
+Example output (Our Approach)
+------------------------------------
+@Jessica_Chobot did you see the yakuza vs zombies .... smh but cool at the same time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	the yakuza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	{'the yakuza': '/en/the_yakuza'}
